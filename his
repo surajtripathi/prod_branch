@@ -1,0 +1,430 @@
+    1  cd~
+    2  cd ~
+    3  ls
+    4  ls -a
+    5  tar -xvzf sshdata.tar.gz 
+    6  ls
+    7  ls -al sshdata
+    8  cp -r sshdata .ssh
+    9  cs .ssh/
+   10  cd .ssh/
+   11  ls
+   12  ls -l
+   13  cd ..
+   14  chown suraj:suraj ~/.ssh/id_rsa*
+   15  chmod 600 id_rsa
+   16  chmod 600 ./.ssh/id_rsa
+   17  chmod 644 ./.ssh/id_rsa.pub 
+   18  mkdir projects
+   19  cd projects/
+   20  git clone git@paytm.unfuddle.com:paytm/ffservice-ticket.git
+   21  sud apt-get install git
+   22  sudo apt-get install git
+   23  git clone git@paytm.unfuddle.com:paytm/ffservice-ticket.git
+   24  cd ffservice-ticket/
+   25  ls
+   26  subl ./
+   27  pulseaudio -k
+   28  sudo /etc/init.d/bluetooth restart
+   29  sudo apt-get install pulseaudio-module-bluetooth
+   30  sudo apt-get install blueman
+   31  gedit /etc/pulse/default.pa
+   32  load-module module-switch-on-connect
+   33  pulseaudio -k
+   34  pactl load-module module-bluetooth-discover
+   35  sudo gedit /etc/bluetooth/audio.conf
+   36  pulseaudio -k
+   37  sudo restart 
+   38  sudo shutdown -r
+   39  redis-cli 
+   40  cd Desktop/
+   41  ls
+   42  ls -l
+   43  cd ..
+   44  cd Downloads/nodejs-server/
+   45  swagger
+   46  sudo apt-get install subl
+   47  sudo apt-get install sublime
+   48  subl ./
+   49  sudo apt-get update
+   50  sudo apt-get install nodejs
+   51  curl
+   52  curl --help
+   53  wget
+   54  curl1
+   55  npm
+   56  sudo apt-get npm
+   57  sudo apt-get install npm
+   58  npm
+   59  node
+   60  nodejs
+   61  sudo apt-get install node
+   62  node
+   63  node --help
+   64  node app.js
+   65  nodejs
+   66  nodejs app.js
+   67  npm install absbnbbdsab
+   68  curl -sL https://deb.nodesource.com/setup | sudo bash -
+   69  node js
+   70  nodejs
+   71  sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv 7F0CEB10
+   72  echo 'deb http://downloads-distro.mongodb.org/repo/ubuntu-upstart dist 10gen' | sudo tee /etc/apt/sources.list.d/mongodb.lis
+   73  sudo apt-get update
+   74  sudo apt-get install mongodb-org mongodb-org-server
+   75  echo 'deb http://downloads-distro.mongodb.org/repo/ubuntu-upstart dist 10gen' | sudo tee /etc/apt/sources.list.d/mongodb.list
+   76  history
+   77  sudo apt-get update
+   78  sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv 7F0CEB10
+   79  echo 'deb http://downloads-distro.mongodb.org/repo/ubuntu-upstart dist 10gen' | sudo tee /etc/apt/sources.list.d/mongodb.list
+   80  gedit /etc/apt/sources.list
+   81  gedit /etc/apt/sources.list.d
+   82  nautilus /etc/apt
+   83  cd /etc/apt/sources.list.d/
+   84  rm -f mong*
+   85  sudo rm -f mong*
+   86  ls
+   87  sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv 7F0CEB10
+   88  echo 'deb http://downloads-distro.mongodb.org/repo/ubuntu-upstart dist 10gen' | sudo tee /etc/apt/sources.list.d/mongodb.list
+   89  sudo apt-get update
+   90  sudo apt-get install mongodb-org mongodb-org-server
+   91  sudo npm install mongoose -g
+   92  node -e
+   93  sudo apt-get uninstall node
+   94  sudo apt-get install python-software-properties
+   95  sudo apt-add-repository ppa:chris-lea/node.js
+   96  sudo apt-get update
+   97  sudo apt-get install nodejs
+   98  node
+   99  nodejs
+  100  sudo apt-get install mongoose
+  101  sudo npm install mongoose
+  102  nodejs
+  103  mongo
+  104  cd ..
+  105  cd ~
+  106  cd Downloads/
+  107  ls
+  108  wget http://download.redis.io/redis-stable.tar.gz
+  109  tar -xvzf redis-stable.tar.gz 
+  110  cd redis-stable/
+  111  make
+  112  make install
+  113  sudo make install
+  114  make test
+  115  ls
+  116  cd ..
+  117  ls
+  118  redis-server 
+  119  passwd
+  120  do-release-upgrade
+  121  curl
+  122  curl --help
+  123  man curl
+  124  ls
+  125  cd ..
+  126  ~
+  127  .
+  128  man node
+  129  node 
+  130  nodejs
+  131  man nodejs
+  132  redis-server 
+  133  cd Downloads/
+  134  cd nodejs-server/
+  135  nodejs index.js 
+  136  npm install --save
+  137  nodejs index.js 
+  138  cd ..
+  139  sudo apt-get install --reinstall linux-headers-generic linux-headers-$(uname -r) build-essential dkms git
+  140  git clone https://github.com/FreedomBen/rtl8188ce-linux-driver
+  141  cd rtl8188ce-linux-driver
+  142  make
+  143  sudo make install
+  144  ls
+  145  pip
+  146  python -v
+  147  cd ..
+  148  python --version
+  149  pip
+  150  nodejs 
+  151  nodejs index.js 
+  152  ls
+  153  node app.js 
+  154  node app.js > log.txt
+  155  nodejs
+  156  cd ..
+  157  cd myapp/
+  158  ls
+  159  nodejs app.js 
+  160  cd ../../projects/
+  161  ls
+  162  git clone -b dev git@paytm.unfuddle.com:paytm/chat-server.git
+  163  ls -l
+  164  ls -al
+  165  man ls -l
+  166  ls
+  167  ls -l
+  168  ls -total
+  169  cd ..
+  170  cd nodejs-server/
+  171  nodejs index.js 
+  172  npm install express --save
+  173  nodejs index.js 
+  174  cd ..
+  175  mkdir helloworld
+  176  cd helloworld/
+  177  npm init
+  178  subl app.js
+  179  subl ./
+  180  touch app.js
+  181  npm install
+  182  npm install express body-parser swagger-node-express
+  183  npm install express body-parser swagger-node-express --save
+  184  nodejs app.js 
+  185  ~
+  186  nodejs app.js 
+  187  nodejs app.js >log.txt
+  188  touch api_json.js
+  189  nodejs app.js 
+  190  nautilus
+  191  nautilus ./
+  192  cd ..
+  193  mkdir myapp
+  194  cd myapp/
+  195  npm init
+  196  touch app.js
+  197  subl ./
+  198  nodejs app.js 
+  199  npm install
+  200  npm install swagger-node-express express body-parser --save
+  201  npm install
+  202  nodejs app.js 
+  203  swagger project edit
+  204  cd Desktop/
+  205  cd ../Downloads/sn-express/
+  206  swagger project edit
+  207  cd Desktop/
+  208  ls
+  209  c ../Downloads/sn-express
+  210  cd ./../Downloads/sn-express
+  211  ls
+  212  swagger projecct edit
+  213  swagger project edit
+  214  swagger
+  215  npm install
+  216  npm -g install npm@latest-2
+  217  npm -g install npm@latest
+  218  sudo npm -g install npm@latest
+  219  ls
+  220  nodejs app.js 
+  221  npm install swagger
+  222  npm install swagger -g
+  223  sudo npm install swagger -g
+  224  swagger project --help
+  225  swagger project start
+  226  nodejs --brk-debug app.js 
+  227  nodejs --debug-brk app.js 
+  228  nodejs  app.js 
+  229  history
+  230  cd ..
+  231  sudo apt-get install python pip
+  232  sudo apt-get install python-pip
+  233  pip
+  234  pip --version
+  235  pip install mkdocs
+  236  sudo pip install mkdocs
+  237  mkdoc help
+  238  mkdoc --help
+  239  mkdocs help
+  240  mkdocs new mkdocProj
+  241  cd mkdocProj/
+  242  ls
+  243  cat mkdocs.yml 
+  244  cd docs/
+  245  ls
+  246  cat index.md 
+  247  mkdocs serve
+  248  cd ..
+  249  mkdocs serve
+  250  cd ..
+  251  cd..
+  252  cd ..
+  253  mkdir exi_snep
+  254  cd exi_snep/
+  255  npm init
+  256  touch app.js
+  257  subl ./
+  258  nodejs app.js 
+  259  npm install express --save
+  260  nodejs app.js 
+  261  npm install
+  262  git clone https://github.com/swagger-api/swagger-ui
+  263  ls
+  264  nodejs app.js 
+  265  cd dist/
+  266  ls api*
+  267  touch api-docs.json
+  268  cat api-docs.json 
+  269  cd ..
+  270  nodejs app.js 
+  271  cd ..
+  272  cd exi_snep/
+  273  cd ..
+  274  mkdir git_cmbt
+  275  cd git_cmbt/
+  276  git init
+  277  touch README.md
+  278  echo "testing project" > README.md 
+  279  cat README.md 
+  280  git commit -m "first commit"
+  281  gitgit config user.email "suraj99934@gmail.com"
+  282  git config user.email "suraj99934@gmail.com"
+  283  git config user.name "Suraj Tripathi"
+  284  git commit -m "first commit"
+  285  git add .
+  286  git add *
+  287  git commit -m "first commit"
+  288  git remote add origin https://github.com/surajtripathi/cmbt.git
+  289  git push -u origin master
+  290  git checkout -b my-new-branch
+  291  git push origin my-new-branch
+  292  git branch
+  293  echo "license" > LICENSE
+  294  git add *
+  295  git remote add my-new-branch
+  296  git remote add my-new-branch https://github.com/surajtripathi/cmbt.git
+  297  git push origin my-new-branch
+  298  git commit -m "commit in new branch"
+  299  git remote add my-new-branch https://github.com/surajtripathi/cmbt.git
+  300  git push origin my-new-branch
+  301  git branch
+  302  cd ..
+  303  git clone -b master https://github.com/surajtripathi/cmbt.git
+  304  cd cmbt/
+  305  ls
+  306  git branch 
+  307  echo "hello world" > hello_world.txt
+  308  git add .
+  309  git commit -m "secont commit in master"
+  310  git config user.name "suraj99934@gmail.com"
+  311  git config user.email "suraj99934@gmail.com"
+  312  git config user.name "Suraj Tripathi"
+  313  git commit -m "secont commit in master"
+  314  ls
+  315  git push origin master
+  316  cd ..
+  317  cd git_cmbt/
+  318  git fetch my-new-branch
+  319  ls
+  320  git merge my-new-branch/master
+  321  ls
+  322  git merge -m "merging from main" my-new-branch/master
+  323  git merge -m "merging from main" master/my-new-branch
+  324  git push origin my-new-branch
+  325  cd ..
+  326  cd cmbt/
+  327  ls
+  328* 
+  329  cd..
+  330  cd ..
+  331  cd git_cmbt/
+  332  git fetch master
+  333  cd ..
+  334  cd cmbt/
+  335  git checkout new_branch
+  336  git checkout -b new_branch
+  337  git push origin new_branch
+  338  git branch
+  339  git remote
+  340  cd ..
+  341  cd cmbt/
+  342  git branch
+  343  cd ..
+  344  cd git_cmbt/
+  345  git remote
+  346  git -b
+  347  git branch
+  348  git push -d master
+  349  git branch -d master
+  350  git push origin my-new-branch
+  351  cd ..
+  352  rm -rf git_cmbt
+  353  ls
+  354  rm -rf cmbt/
+  355  ls
+  356  ls *sw*
+  357  ls
+  358  tar --help
+  359  man tar
+  360  mkdir prod_brach
+  361  mv prod_brach/
+  362  rm prod_brach/
+  363  rm -fr prod_brach
+  364  mkdir prod_branch
+  365  cd prod_branch/
+  366  git init
+  367  echo "read me file" > README.md
+  368  git add .
+  369  git commit -m "first commit on master"
+  370  git config user.name "Suraj Tripathi"
+  371  git config user.email "suraj99934@gmail.com"
+  372  git commit -m "first commit on master"
+  373  git remote add origin https://github.com/surajtripathi/prod_branch.git
+  374  git push origin master
+  375  git checkout -b iss53
+  376  echo "iss53 working" > iss53
+  377  git add .
+  378  git commit -m "working on iss53"
+  379  git checkout master 
+  380  git checkout -b hotfix
+  381  echo "hotfix finished" > hotfix
+  382  git add .
+  383  git commit -m "hotfix done"
+  384  git checkout master 
+  385  git merge hotfix 
+  386  git push origin master
+  387  git branch
+  388  git branch -d hotfix 
+  389  git branch
+  390  git branch iss53 
+  391  git checkout iss53  
+  392  echo "finished iss53" >> iss53 
+  393  git add .
+  394  git commit -m "finished iss53"
+  395  git checkout master 
+  396  git merge iss53 
+  397  ls
+  398  git push origin master
+  399  git branch 
+  400  git branch -d iss53 
+  401  git branch 
+  402  git branch --merge
+  403  git branch --no-merge
+  404  git ls-remote (remote)
+  405  git ls-remote 
+  406  git reomte show
+  407  git remote show
+  408  git ls-remote origin/master
+  409  git ls-remote origin
+  410  git ls-remote master
+  411  git ls-remote origin
+  412  git checkout -b serverfix
+  413  git branch 
+  414  echo "serverfix" > serverfix
+  415  git add .
+  416  git commit -m "serverfix brach"
+  417  git push origin serverfix 
+  418  git checkout master 
+  419  git merge origin/serverfix 
+  420  git branch -d serverfix 
+  421  git push origin master
+  422  git fetch origin
+  423  git branch 
+  424  git li-show
+  425  git li-show origin
+  426  git ls-show origin
+  427  git li-show master
+  428  git li-show
+  429  history | gedit 
+  430  history > his 
